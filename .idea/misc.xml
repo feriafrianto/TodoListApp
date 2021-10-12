@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/SEMESTER 5/Pemrograman Perangkat Bergerak/Praktikum/TodoListApp/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/SEMESTER 5/Pemrograman Perangkat Bergerak/Praktikum/TodoListApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/SEMESTER 5/Pemrograman Perangkat Bergerak/Praktikum/TodoListApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/SEMESTER 5/Pemrograman Perangkat Bergerak/Praktikum/TodoListApp/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/SEMESTER 5/Pemrograman Perangkat Bergerak/Praktikum/TodoListApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
         <entry key="..\:/SEMESTER 5/Pemrograman Perangkat Bergerak/Praktikum/TodoListApp/app/src/main/res/layout/add_newtask.xml" value="0.12771739130434784" />
         <entry key="..\:/SEMESTER 5/Pemrograman Perangkat Bergerak/Praktikum/TodoListApp/app/src/main/res/layout/task_layout.xml" value="0.25" />

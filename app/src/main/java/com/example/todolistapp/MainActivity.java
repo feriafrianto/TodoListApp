@@ -6,8 +6,10 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 import com.example.todolistapp.Adapter.TaskAdapter;
 import com.example.todolistapp.Model.TaskModel;
@@ -45,6 +47,12 @@ public class MainActivity extends AppCompatActivity implements OnDialogCloseList
         mList = myDB.getAllTasks();
         Collections.reverse(mList);
         adapter.setTasks(mList);
+
+        SharedPreferences preferences = getSharedPreferences("MYPREFS", MODE_PRIVATE);
+        String display = preferences.getString("name", "");
+
+        TextView displayInfo = (TextView) findViewById(R.id.textview2);
+        displayInfo.setText(displayInfo.getText() + display);
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
